@@ -1,8 +1,9 @@
 body{
     background-size: 100% 100%;
     background-position: 0px 0px;
-    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
-
+    /* background-color: #c2b6b6; */
+background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
+   
 }
 .nav{
     position: fixed;
@@ -131,7 +132,7 @@ body{
     font-weight: 300;
     color: white;
 }
-.cv {
+.viewgallery {
     border: none;
     background-color: white;
    border-radius: 15px;
@@ -144,14 +145,14 @@ body{
    
    
 }
-.cv a{
+.viewgallery a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color: black;
 }
 
-.cv:hover, .cv a:hover{
+.viewgallery:hover, .viewgallery a:hover{
     background: black;
     color: white;
 }
