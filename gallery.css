@@ -1,0 +1,87 @@
+body{
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+
+}
+.nav{
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+
+}
+.nav ul li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+   
+    
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    font-weight: 600;
+}
+.menu li a:hover{
+      color: red;
+      cursor: pointer;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 0 20px;
+    }
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.container .box .pics{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: 10px;
+    }
+.container .box .pics img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    filter:grayscale(0.7);
+    }
+.container .box .pics img:hover{
+    scale: 1.4;
+    cursor: pointer;
+    border:5px solid ;
+    border-image:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,47,122,1) 32%, rgba(253,29,29,1) 52%, rgba(253,113,48,1) 73%, rgba(190,87,205,1) 89%, rgba(173,69,252,1) 100%)5;
+    border-radius: 20px;
+    filter: none;
+    z-index: 1;
+    }
+.container button{
+    border: none;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom:30px;
+    font-weight: 500;
+}
+.container button:hover{
+    color: white;
+    background: black;
+}
