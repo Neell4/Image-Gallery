@@ -1,2 +1,2 @@
 # Image-Gallery
-Simple static image gallery using HTML and CSS.
+Simple image gallery created using HTML and CSS.
